@@ -1,0 +1,50 @@
+@import url(../css/reset.css);
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.logo{
+    width: 7%;
+    height: 21vh;
+    background-image: url(../img/fdp_2022-04-24\ 19.16.30.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.name{
+    width: 15%;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-left: 1vh;
+
+}
+.name span {
+    font-weight: 700;
+}
+nav{
+    width: 78%;
+    display: flex;
+    color: rgb(9, 9, 9);
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+}
+li a {
+    text-decoration: none;
+    color: #000000;
+}
